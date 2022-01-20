@@ -1658,7 +1658,7 @@ this.wordle.bundle = function(e) {
                     s.classList.add("row"),
                     a.forEach((function(e) {
                         var a;
-                        if (e >= "a" && e <= "z" || "←" === e || "↵" === e) {
+                        if (e >= "0" && e <= "9" || "←" === e || "↵" === e) {
                             if ((a = is.content.cloneNode(!0).firstElementChild).dataset.key = e,
                             a.textContent = e,
                             "←" === e) {
