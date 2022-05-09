@@ -1,4 +1,4 @@
-this.primel = this.primel || {},
+https://github.com/https://github.com/this.primel = this.primel || {},
 this.primel.bundle = function(e) {
     "use strict";
     function a(e) {
@@ -219,7 +219,7 @@ this.primel.bundle = function(e) {
             value: function() {
                 var e = this;
                 this.shadowRoot.appendChild(k.content.cloneNode(!0)),
-                this.$tile = this.shadowRoot.querySelector(".tile"),
+                this.$tile = this.shadowRoot.querySelector(".tile"),https://github.com/
                 this.$tile.addEventListener("animationend", (function(a) {
                     "PopIn" === a.animationName && (e._animation = "idle"),
                     "FlipIn" === a.animationName && (e.$tile.dataset.state = e._state,
@@ -1401,7 +1401,7 @@ this.primel.bundle = function(e) {
                 if (this.gameStatus === Za && this.canInput) {
                     if (5 !== this.tileIndex)
                         return this.$board.querySelectorAll("game-row")[this.rowIndex].setAttribute("invalid", ""),
-                        void this.addToast("Not enough letters");
+                        void this.addToast("Not enough numbers");
                     this.evaluateRow()
                 }
             }
